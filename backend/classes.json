@@ -1,0 +1,97 @@
+{
+    "animals": [
+        "armadillo",
+        "bear",
+        "camel",
+        "cat",
+        "chameleon",
+        "cow",
+        "crab",
+        "crocodile",
+        "deer",
+        "dog",
+        "elephant",
+        "fish",
+        "fox",
+        "frog",
+        "giraffe",
+        "gorilla",
+        "hippo",
+        "horse",
+        "kangaroo",
+        "lion",
+        "lizard",
+        "monkey",
+        "mouse",
+        "panda",
+        "pig",
+        "rabbit",
+        "rhinoceros",
+        "sheep",
+        "skunk",
+        "squirrel",
+        "tiger",
+        "tortoise",
+        "wolf",
+        "zebra"
+    ],
+    "birds": [
+        "bat",
+        "crane",
+        "duck",
+        "hummingbird",
+        "owl",
+        "parrot",
+        "peacock",
+        "pelican",
+        "penguin",
+        "rooster",
+        "sparrow",
+        "swan"
+    ],
+    "characters": [
+        "nun",
+        "santa",
+        "witch",
+        "wizard",
+        "yoda"
+    ],
+    "dinosaurs": [
+        "dragon",
+        "godzilla",
+        "parasaurolophus",
+        "pteranodon",
+        "sauropods",
+        "spinosaurus",
+        "stegosaurus",
+        "trex",
+        "triceratops"
+    ],
+    "fictional": [
+        "pegasus",
+        "unicorn"
+    ],
+    "insects": [
+        "beetle",
+        "butterfly",
+        "dragonfly",
+        "grasshopper",
+        "scorpion",
+        "snail"
+    ],
+    "objects": [
+        "ball",
+        "boat",
+        "box",
+        "flower",
+        "jackolantern",
+        "mask",
+        "plane",
+        "skull",
+        "star"
+    ],
+    "shapes": [
+        "cube",
+        "pyramid"
+    ]
+}

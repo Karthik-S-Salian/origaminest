@@ -1,0 +1,84 @@
+{
+    "cow": {
+        "videoUrl":"",
+        "mcqs":[
+            {
+                "question": "What is the key step in creating a cow origami model?",
+                "options": [
+                    "Create the body by folding the paper into a specific shape.",
+                    "Fold the paper diagonally in half.",
+                    "Cut the paper into the cow shape.",
+                    "Color the paper to resemble a cow."
+                ]
+            },
+            {
+                "question": "What is the recommended paper size for a standard cow origami model?",
+                "options": [
+                    "8.5 x 11 inches",
+                    "6 x 6 inches",
+                    "12 x 12 inches",
+                    "A4 size"
+                ]
+            },
+            {
+                "question": "What is the purpose of the sink fold in cow origami?",
+                "options": [
+                    "Create the tail",
+                    "Form the body",
+                    "Shape the head",
+                    "Define the legs"
+                ]
+            },
+            {
+                "question": "What is the purpose of the sink fold in cow origami?",
+                "options": [
+                    "Create the tail",
+                    "Form the body",
+                    "Shape the head",
+                    "Define the legs"
+                ]
+            }
+        ]
+    },
+    "rabbit": {
+        "videoUrl":"",
+        "mcqs":[
+            {
+                "question": "What is the key step in creating a cow origami model?",
+                "options": [
+                    "Create the body by folding the paper into a specific shape.",
+                    "Fold the paper diagonally in half.",
+                    "Cut the paper into the cow shape.",
+                    "Color the paper to resemble a cow."
+                ]
+            },
+            {
+                "question": "What is the recommended paper size for a standard cow origami model?",
+                "options": [
+                    "8.5 x 11 inches",
+                    "6 x 6 inches",
+                    "12 x 12 inches",
+                    "A4 size"
+                ]
+            },
+            {
+                "question": "What is the purpose of the sink fold in cow origami?",
+                "options": [
+                    "Create the tail",
+                    "Form the body",
+                    "Shape the head",
+                    "Define the legs"
+                ]
+            },
+            {
+                "question": "What is the purpose of the sink fold in cow origami?",
+                "options": [
+                    "Create the tail",
+                    "Form the body",
+                    "Shape the head",
+                    "Define the legs"
+                ]
+            }
+        ]
+    }
+}

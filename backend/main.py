@@ -1,9 +1,9 @@
-from fastapi import FastAPI, UploadFile,status,HTTPException
+from fastapi import FastAPI, UploadFile,status,HTTPException,Form,File
 from fastapi.middleware.cors import CORSMiddleware
 import uvicorn
 from data import getVideoUrl,getMCQ,getClasses
 from predict import generate_inference
-from schemas import PredictResponse
+from schemas import PredictResponse,MCQRequest,PredictRequest
 
 TF_ENABLE_ONEDNN_OPTS=0
 
@@ -27,13 +27,13 @@ def getCategories():
     return getClasses()
 
 @app.post("/mcqs")
-def getCategories(cls:str):
-    return getMCQ(cls)
+def getCategories(request:MCQRequest):
+    return getMCQ(request.cls)
 
 
 @app.post("/predict",response_model=PredictResponse)
-async def predict(category:str,file: UploadFile):
-    cls,confidence = generate_inference(category,await file.read())
+async def predict(category:str =Form(...),image:UploadFile = File(...)):
+    cls,confidence = generate_inference(category,await image.read())
     return {
         'cls': cls,
         'confidence': confidence,

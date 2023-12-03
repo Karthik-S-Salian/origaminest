@@ -2,7 +2,7 @@ import 'dart:async';
 import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:origaminest/page/display_picture_screen.dart';
+import 'package:origaminest/page/display_picture.dart';
 
 class CategoryScreen extends StatelessWidget {
   final CameraDescription camera;

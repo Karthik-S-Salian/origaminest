@@ -1,9 +1,11 @@
 import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
 import 'dart:async';
-import 'page/my_home_page.dart';
+import 'page/home.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 Future<void> main() async {
+  await dotenv.load(fileName: ".env");
   // Ensure that plugin services are initialized so that `availableCameras()`
   // can be called before `runApp()`
   WidgetsFlutterBinding.ensureInitialized();
@@ -33,7 +35,7 @@ class App extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MyHomePage(
+    return Home(
       title: 'Flutter Demo Home Page',
       camera: camera,
     );

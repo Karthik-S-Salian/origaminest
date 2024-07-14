@@ -10,10 +10,9 @@ TF_ENABLE_ONEDNN_OPTS=0
 app = FastAPI()
 
 origins = [
-    "*",
     "http://localhost:37914",
-    "http://localhost:5173",
 ]
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,

@@ -1,7 +1,6 @@
 from pydantic import BaseModel
 from fastapi import  UploadFile
 
-
 class PredictResponse(BaseModel):
     cls:str
     confidence:float

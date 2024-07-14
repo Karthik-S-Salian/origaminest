@@ -1,0 +1,9 @@
+// original data sources
+https://github.com/multimedia-berkeley/OriSet/tree/master
+https://oriwiki.com/browseModels.php?PN=1&Letter=A
+https://origami-database.com/statistics/
+https://www.giladorigami.com/origami-database.html
+
+
+// final data source
+https://www.kaggle.com/datasets/karthikssalian/origami-models
